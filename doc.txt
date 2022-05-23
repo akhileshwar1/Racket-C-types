@@ -1,0 +1,21 @@
+---------------------------------------------------------------------------------------------------
+
+Abstract:
+
+Creating a language that deals with some of the type features of C. The features are as follows:
+1. Representing an integer as an hexa or a numeral and dictating their use in expressions.
+2. Allocating the size of bytes to the int repr.
+3. validity of an expression.
+
+
+---------------------------------------------------------------------------------------------------
+
+Grammar:
+
+(C +) - an operator that thinks like c addition operator which checks at compile time.
+(int a 5) - int can also be seen as an operator that checks for its arg as a number. 
+(int b (+ a 5)) 
+                  
+---------------------------------------------------------------------------------------------------
+
+
